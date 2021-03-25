@@ -11,9 +11,9 @@ Note that this license applies to the EPS, not to Vensim.  Vensim is commercial 
 
 Cypress trees at Lake Martin, Breaux Bridge, Louisiana
 
-Joshua J. Cotten (https://unsplash.com/@jcotten)
+Joshua J. Cotten
 
-[{https://unsplash.com/photos/nTk0RJXA0iw}]({https://unsplash.com/photos/nTk0RJXA0iw})
+[https://unsplash.com/photos/nTk0RJXA0iw]({https://unsplash.com/photos/nTk0RJXA0iw})
 
 License: Unsplash
 
