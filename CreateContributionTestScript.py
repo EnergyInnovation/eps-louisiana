@@ -63,16 +63,16 @@ Group = 4
     # Change the group names so multiple policies share a name (like "financial policies") to cause them to be enabled or disabled together.
 
 PotentialPolicies = (
-
     (True, "Additional Minimum Required EV Sales Percentage[passenger,LDVs]","Additional Minimum Required EV Sales Percentage[passenger,LDVs]",[0,1],"Passenger Car ZEV Sales Standard"),
     (True, "Additional Minimum Required EV Sales Percentage[passenger,HDVs]","Additional Minimum Required EV Sales Percentage[passenger,HDVs]",[0,1],"California HDV Rules"),
     (True, "Additional Minimum Required EV Sales Percentage[passenger,motorbikes]","Additional Minimum Required EV Sales Percentage[passenger,motorbikes]",[0,1],"California HDV Rules"),
     (True, "Additional Minimum Required EV Sales Percentage[freight,LDVs]","Additional Minimum Required EV Sales Percentage[freight,LDVs]",[0,1],"California HDV Rules"),
     (True, "Additional Minimum Required EV Sales Percentage[freight,HDVs]","Additional Minimum Required EV Sales Percentage[freight,HDVs]",[0,1],"California HDV Rules"),
+    (True, "Annual Additional Capacity Retired due to Early Retirement Policy[hard coal es]","Annual Additional Capacity Retired due to Early Retirement Policy[hard coal es]",[0,52],"Power Sector Coal Regs"),
+    (True, "Annual Additional Capacity Retired due to Early Retirement Policy[lignite es]","Annual Additional Capacity Retired due to Early Retirement Policy[lignite es]",[0,25],"Power Sector Coal Regs"),
     (True, "Boolean Ban New Power Plants[hard coal es]","Boolean Ban New Power Plants[hard coal es]",[0,1],"Power Sector Coal Regs"),
     (True, "Boolean Ban New Power Plants[natural gas nonpeaker es]","Boolean Ban New Power Plants[natural gas nonpeaker es]",[0,1],"Power Sector Gas Regs"),
     (True, "Boolean Ban New Power Plants[lignite es]","Boolean Ban New Power Plants[lignite es]",[0,1],"Power Sector Coal Regs"),
-    (True, "Boolean Use Non BAU Mandated Capacity Construction Schedule[natural gas nonpeaker es]","Boolean Use Non BAU Mandated Capacity Construction Schedule[natural gas nonpeaker es]",[0,1],"Power Sector Gas Regs"),
     (True, "Electricity Sector Fraction of Potential Additional CCS Achieved[petroleum es]","Electricity Sector Fraction of Potential Additional CCS Achieved[petroleum es]",[0,1],"Power Sector Gas Regs"),
     (True, "Electricity Sector Fraction of Potential Additional CCS Achieved[natural gas peaker es]","Electricity Sector Fraction of Potential Additional CCS Achieved[natural gas peaker es]",[0,1],"Power Sector Gas Regs"),
     (True, "EV Charger Deployment","EV Charger Deployment",[0,140],"EV Charger Deployment "),
@@ -315,8 +315,6 @@ PotentialPolicies = (
     (True, "Share of Preexisting Buildings Subject to Retrofitting[commercial]","Share of Preexisting Buildings Subject to Retrofitting[commercial]",[0,0.15],"Building Retrofitting"),
     (True, "Subsidy for Elec Production by Fuel[nuclear es]","Subsidy for Elec Production by Fuel[nuclear es]",[0,11],"Subsidy for Elec Production - Nuclear"),
     (True, "Subsidy for Elec Production by Fuel[onshore wind es]","Subsidy for Elec Production by Fuel[onshore wind es]",[0,5],"Electricity PTC/ITC")
-
-	
 )
 
 # Building the Policy List
