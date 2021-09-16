@@ -14,7 +14,7 @@
 # Rather than including input and output file names in the code below, we assign all the file
 # names to variables in this section.  This allows the names to be easily changed if desired.
 ModelFile = "EPS.mdl" # The name of the Vensim model file (typically with .mdl or .vpmx extension)
-FirstYear = "2020" # The first year you wish to include in the output file (cannot be prior to first simulated year)
+FirstYear = "2019" # The first year you wish to include in the output file (cannot be prior to first simulated year)
 FinalYear = "2050" # The last year you wish to include in the output file (cannot be later than last simulated year)
 OutputScript = "GeneratedContributionTestScript.cmd" # The desired filename of the Vensim command script to be generated
 RunResultsFile = "ContributionTestResults.tsv" # The desired filename for TSV file containing model run results
@@ -28,7 +28,7 @@ EnableOrDisableGroups = "Disable" # Should each group be enabled or disabled in 
 								 # Essentially, this is testing either the contribution of a group in the proximity of the
 								 # BAU case ("Enable") or in the proximity of a scenario defined in the non-zero values of
 								 # the policies listed below ("Disable").
-PolicySchedule = 2 # The number of the policy implementation schedule file to be used (in InputData/plcy-schd/FoPITY)
+PolicySchedule = 3 # The number of the policy implementation schedule file to be used (in InputData/plcy-schd/FoPITY)
 
 
 # Index definitions
@@ -315,6 +315,7 @@ PotentialPolicies = (
     (True, "Share of Preexisting Buildings Subject to Retrofitting[commercial]","Share of Preexisting Buildings Subject to Retrofitting[commercial]",[0,0.15],"Building Retrofitting"),
     (True, "Subsidy for Elec Production by Fuel[nuclear es]","Subsidy for Elec Production by Fuel[nuclear es]",[0,11],"Subsidy for Elec Production - Nuclear"),
     (True, "Subsidy for Elec Production by Fuel[onshore wind es]","Subsidy for Elec Production by Fuel[onshore wind es]",[0,5],"Electricity PTC/ITC")
+
 )
 
 # Building the Policy List
