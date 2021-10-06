@@ -4,6 +4,7 @@ title:	"Louisiana EPS Version History"
 ---
 This page tracks updates that have been made with each version of the Louisiana Energy Policy Simulator.
 
-### **{version number} - {release date}**
+### **3.2 - October 18, 2021**
 
-* {comment}
+* Official launch of the Louisiana EPS
+
