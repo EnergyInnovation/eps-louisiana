@@ -13,7 +13,7 @@ Cypress trees at Lake Martin, Breaux Bridge, Louisiana
 
 Joshua J. Cotten
 
-[https://unsplash.com/photos/nTk0RJXA0iw]({https://unsplash.com/photos/nTk0RJXA0iw})
+[https://unsplash.com/photos/nTk0RJXA0iw](https://unsplash.com/photos/nTk0RJXA0iw)
 
 License: Unsplash
 
